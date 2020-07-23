@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OneAppETC_Example' do
+  pod 'OneAppETC', :path => '../'
+
+  target 'OneAppETC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
