@@ -1,5 +1,4 @@
 # OneAppETC
-<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/zengli/OneAppETC.svg?style=flat)](https://travis-ci.org/zengli/OneAppETC)
 [![Version](https://img.shields.io/cocoapods/v/OneAppETC.svg?style=flat)](https://cocoapods.org/pods/OneAppETC)
