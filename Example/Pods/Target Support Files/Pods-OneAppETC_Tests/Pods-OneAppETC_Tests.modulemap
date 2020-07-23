@@ -1,0 +1,6 @@
+framework module Pods_OneAppETC_Tests {
+  umbrella header "Pods-OneAppETC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

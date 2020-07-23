@@ -1,0 +1,22 @@
+{
+  "name": "OneAppETC",
+  "version": "0.1.0",
+  "summary": "A short description of OneAppETC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://10.122.7.81/zengli/OneAppETC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zengli": "li.zheng@futuremove.cn"
+  },
+  "source": {
+    "git": "http://10.122.7.81/zengli/OneAppETC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OneAppETC/Classes/**/*"
+}

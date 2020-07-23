@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import OneAppETC
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        //注册sdk
+        OneAppETC.default.register(appKey: "jiuyv")
+
+        let phone = OneAppETC.default.phone()
+        let userId = OneAppETC.default.userId()
+        //打印手机号码和userID
+        print("phone: \(phone) \nuserId: \(userId)")
     }
 
     override func didReceiveMemoryWarning() {

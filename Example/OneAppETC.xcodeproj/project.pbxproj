@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		1107266C8691035480B77031 /* Pods-OneAppETC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppETC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OneAppETC_Tests/Pods-OneAppETC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2792DD35DD3C535563A10B1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		39CE5CDC99A36FE554824381 /* OneAppETC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OneAppETC.podspec; path = ../OneAppETC.podspec; sourceTree = "<group>"; };
+		2792DD35DD3C535563A10B1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39CE5CDC99A36FE554824381 /* OneAppETC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OneAppETC.podspec; path = ../OneAppETC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* OneAppETC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneAppETC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		999CD084B399B21FFF55441A /* Pods_OneAppETC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneAppETC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A532F3A3AF30CA0391B2CB /* Pods-OneAppETC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppETC_Example.release.xcconfig"; path = "Target Support Files/Pods-OneAppETC_Example/Pods-OneAppETC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C0F646504A343CA122F45E64 /* Pods_OneAppETC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneAppETC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1A08CC4D58F49622C056C13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E1A08CC4D58F49622C056C13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E2272E1C34195F5A599A19D1 /* Pods-OneAppETC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppETC_Tests.release.xcconfig"; path = "Target Support Files/Pods-OneAppETC_Tests/Pods-OneAppETC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				1107266C8691035480B77031 /* Pods-OneAppETC_Tests.debug.xcconfig */,
 				E2272E1C34195F5A599A19D1 /* Pods-OneAppETC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
