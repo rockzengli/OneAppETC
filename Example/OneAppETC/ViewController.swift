@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
         //注册sdk
         OneAppETC.default.register(appKey: "jiuyv")
-
+        OneAppETC.default.delegate = self
         let phone = OneAppETC.default.phone()
         let userId = OneAppETC.default.userId()
         //打印手机号码和userID
@@ -31,3 +31,9 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: OneAppETCDelegate {
+    func userInfo() -> [OneAppUserInfo : Any] {
+        return [.phone: "18626348698",
+                .userId: "1111111111"]
+    }
+}

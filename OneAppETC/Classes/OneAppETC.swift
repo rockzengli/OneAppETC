@@ -7,12 +7,18 @@
 
 import Foundation
 
+public protocol OneAppETCDelegate: class {
+    func userInfo() -> [OneAppUserInfo: Any]
+}
+
 public class OneAppETC {
 
     public static let `default` = OneAppETC()
 
     /// 是否允许使用sdk
     private var isAllowAccess: Bool = false
+    
+    public weak var delegate: OneAppETCDelegate?
 
     /// 注册OneApp
     /// - Parameter key: 开发者与OneApp约定的appKey
@@ -26,11 +32,17 @@ public class OneAppETC {
 
     /// 获取用户手机号码
     public func phone() -> String {
-        return isAllowAccess ? "18626348698" : ""
+        guard isAllowAccess, let phone = delegate?.userInfo()[.phone] as? String else {
+            return ""
+        }
+        return phone
     }
 
     /// 获取用户userId
     public func userId() -> String {
-        return isAllowAccess ? "1559434625818710016" : ""
+        guard isAllowAccess, let userId = delegate?.userInfo()[.userId] as? String else {
+            return ""
+        }
+        return userId
     }
 }

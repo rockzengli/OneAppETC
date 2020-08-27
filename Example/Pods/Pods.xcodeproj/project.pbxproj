@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3254C82E403D37DB46A76FC25FBAE016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		38AEA2AAAEC64AB5D7A66360F14D2979 /* OneAppETC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 816CB446E52A05B45D66FE5929978EC7 /* OneAppETC-dummy.m */; };
+		38AEA2AAAEC64AB5D7A66360F14D2979 /* OneAppETC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E637E3B284E5AACC27DA83AD7BC26527 /* OneAppETC-dummy.m */; };
 		3CE818556AEC24BA6AF7C0EB290766D2 /* Pods-OneAppETC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2ECFDCD97D56340496A71B39E84210 /* Pods-OneAppETC_Example-dummy.m */; };
-		53E94633D591A39FA2CACDD8258C06F8 /* OneAppETC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5CD853CB8AE18AAF5301C4B8E9C714 /* OneAppETC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E94633D591A39FA2CACDD8258C06F8 /* OneAppETC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB1EEF0AC4448CA4B0BA9ED79975E37 /* OneAppETC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DB06E9F446CDF46A01793209A56511A /* Pods-OneAppETC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBF7A5CB67023E1964FFAE92FEDA4E6 /* Pods-OneAppETC_Tests-dummy.m */; };
 		76C2EC80E49C6865C67E084BEE4CBFB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		78297D8A2DBBA15BE766BDBD1A5BECAF /* OneAppETC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBDCE6298B8F5DE701DE43AEBBA7E0E /* OneAppETC.swift */; };
+		78297D8A2DBBA15BE766BDBD1A5BECAF /* OneAppETC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E680958FE982D03DFAF84BE4E7AC4C9 /* OneAppETC.swift */; };
 		7F55F6051D87FEE4BCC65536625A7543 /* Pods-OneAppETC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 892033E58512CF61F911F78BBAB393ED /* Pods-OneAppETC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		861DBC3ECAB1AE91979F50511A35ECAE /* Pods-OneAppETC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4BDF6BA9D0C3416D99DC0D2A97CEC82 /* Pods-OneAppETC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA8BCFB1F866EEEB71FF0E50E4C13865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DA235608E7F36AC9E52B5FA64AE257EC /* OneAppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C711606B0B5FF328C1ADA769E595F63 /* OneAppConfiguration.swift */; };
+		DA235608E7F36AC9E52B5FA64AE257EC /* OneAppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C629C41BDAE3C6F27B537EF78C0F2 /* OneAppConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,27 +38,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0252FF0F3A0C502D0ACB3601407E78F0 /* OneAppETC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneAppETC-prefix.pch"; sourceTree = "<group>"; };
+		027C629C41BDAE3C6F27B537EF78C0F2 /* OneAppConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OneAppConfiguration.swift; sourceTree = "<group>"; };
 		06C51A7215FE207E55100CD7E4B69A0E /* Pods-OneAppETC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneAppETC_Example.modulemap"; sourceTree = "<group>"; };
-		1335EC64756B86B8009BCFE235B13163 /* OneAppETC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneAppETC.xcconfig; sourceTree = "<group>"; };
-		241558AE3BBA74CC2B7155B899047E94 /* OneAppETC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OneAppETC-Info.plist"; sourceTree = "<group>"; };
+		1D6010375DD82AEE7FF6E38A2FC742F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		29624D61867700665FC43750499CFAC9 /* OneAppETC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OneAppETC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CCF05B5655A29435E52C37E096479CA /* OneAppETC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneAppETC-prefix.pch"; sourceTree = "<group>"; };
+		2F32F73A747B4369B6625FE880431137 /* OneAppETC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneAppETC.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		38552B2223074263A24D87C77BC73253 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3C6F2F6A4C0C6C1AF88F24D701D26012 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3F4A21B3C0E690B63A304AB94F5BB3A6 /* OneAppETC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneAppETC.release.xcconfig; sourceTree = "<group>"; };
 		4CCF1F2AAE87CB9921CD659DDB7F9F62 /* Pods_OneAppETC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneAppETC_Tests.framework; path = "Pods-OneAppETC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A5CD853CB8AE18AAF5301C4B8E9C714 /* OneAppETC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneAppETC-umbrella.h"; sourceTree = "<group>"; };
-		7C711606B0B5FF328C1ADA769E595F63 /* OneAppConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OneAppConfiguration.swift; sourceTree = "<group>"; };
-		816CB446E52A05B45D66FE5929978EC7 /* OneAppETC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneAppETC-dummy.m"; sourceTree = "<group>"; };
-		87C074C004F693C5EFA551A180087D98 /* OneAppETC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OneAppETC.modulemap; sourceTree = "<group>"; };
+		4E680958FE982D03DFAF84BE4E7AC4C9 /* OneAppETC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OneAppETC.swift; path = OneAppETC/Classes/OneAppETC.swift; sourceTree = "<group>"; };
 		892033E58512CF61F911F78BBAB393ED /* Pods-OneAppETC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneAppETC_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9C9A773E4FEC6984FA42967B966A9F7A /* Pods-OneAppETC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneAppETC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBF7A5CB67023E1964FFAE92FEDA4E6 /* Pods-OneAppETC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneAppETC_Tests-dummy.m"; sourceTree = "<group>"; };
 		A53407B9B4F3ED3C42632F32845E26B7 /* Pods-OneAppETC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneAppETC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A60668182BFD366E3F6D1ABA2A5436BE /* Pods-OneAppETC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneAppETC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8CB61758DD86734372E5715CC0D6600 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A696BA6F8421BC7DC44D1AC7B358DB36 /* OneAppETC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OneAppETC.modulemap; sourceTree = "<group>"; };
 		AAFCFD19FF298F763B85C8975114DFB7 /* Pods-OneAppETC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneAppETC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ABEA6FA67C8AC6976C6DC15B96397801 /* Pods-OneAppETC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneAppETC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B14E10F76829F0293053BE5A677CBADE /* OneAppETC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OneAppETC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4BDF6BA9D0C3416D99DC0D2A97CEC82 /* Pods-OneAppETC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneAppETC_Example-umbrella.h"; sourceTree = "<group>"; };
 		B7A838F6B945B766397D106C0FA01F36 /* Pods-OneAppETC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneAppETC_Example-Info.plist"; sourceTree = "<group>"; };
 		BE67141C33B40E1AE32DA17D007520E2 /* Pods-OneAppETC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneAppETC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -68,9 +67,11 @@
 		CC71068AD0C1CFB395EF6759C4C7C974 /* OneAppETC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OneAppETC.framework; path = OneAppETC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D993386783A29DC3F871E43E0776FB1D /* Pods-OneAppETC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneAppETC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DFA2285B1D5BE665BC59A17D86B3558F /* Pods_OneAppETC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneAppETC_Example.framework; path = "Pods-OneAppETC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBBDCE6298B8F5DE701DE43AEBBA7E0E /* OneAppETC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OneAppETC.swift; path = OneAppETC/Classes/OneAppETC.swift; sourceTree = "<group>"; };
+		E637E3B284E5AACC27DA83AD7BC26527 /* OneAppETC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneAppETC-dummy.m"; sourceTree = "<group>"; };
+		F290330F0BEDE23A1584C490BD1D3231 /* OneAppETC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OneAppETC-Info.plist"; sourceTree = "<group>"; };
 		F7801D3CC3C51EDC1F059721B67EB65A /* Pods-OneAppETC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneAppETC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FCCE983D3E26DBC2F5DA99A2D7667AEC /* Pods-OneAppETC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneAppETC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEB1EEF0AC4448CA4B0BA9ED79975E37 /* OneAppETC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneAppETC-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14AE29F2007BEA1D28A81BCBD0581FA9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D6010375DD82AEE7FF6E38A2FC742F9 /* LICENSE */,
+				29624D61867700665FC43750499CFAC9 /* OneAppETC.podspec */,
+				3C6F2F6A4C0C6C1AF88F24D701D26012 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		163FC74EAD55CFAA47C07BAAB70A3EF8 /* Pods-OneAppETC_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,16 +127,6 @@
 			);
 			name = "Pods-OneAppETC_Example";
 			path = "Target Support Files/Pods-OneAppETC_Example";
-			sourceTree = "<group>";
-		};
-		27E31E677E18979F07CD812B16BB013D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				38552B2223074263A24D87C77BC73253 /* LICENSE */,
-				B14E10F76829F0293053BE5A677CBADE /* OneAppETC.podspec */,
-				A8CB61758DD86734372E5715CC0D6600 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		3E30491FE564E90F3371EFD60E27B4C8 /* Targets Support Files */ = {
@@ -153,27 +154,25 @@
 			path = "Target Support Files/Pods-OneAppETC_Tests";
 			sourceTree = "<group>";
 		};
-		800127D093054A452EAE8A4CDF9B207C /* OneAppETC */ = {
+		79C4D98165B681C2C5EDE6186CBD125C /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				EBBDCE6298B8F5DE701DE43AEBBA7E0E /* OneAppETC.swift */,
-				B3A992F8714421AAA23C469B434B72E1 /* Configuration */,
-				27E31E677E18979F07CD812B16BB013D /* Pod */,
-				A3CC82CFE883ED00CA909377CC46CECC /* Support Files */,
+				027C629C41BDAE3C6F27B537EF78C0F2 /* OneAppConfiguration.swift */,
 			);
-			name = OneAppETC;
-			path = ../..;
+			name = Configuration;
+			path = OneAppETC/Classes/Configuration;
 			sourceTree = "<group>";
 		};
-		A3CC82CFE883ED00CA909377CC46CECC /* Support Files */ = {
+		9CBF566F10902756A9D2FABAEA297A06 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				87C074C004F693C5EFA551A180087D98 /* OneAppETC.modulemap */,
-				1335EC64756B86B8009BCFE235B13163 /* OneAppETC.xcconfig */,
-				816CB446E52A05B45D66FE5929978EC7 /* OneAppETC-dummy.m */,
-				241558AE3BBA74CC2B7155B899047E94 /* OneAppETC-Info.plist */,
-				0252FF0F3A0C502D0ACB3601407E78F0 /* OneAppETC-prefix.pch */,
-				5A5CD853CB8AE18AAF5301C4B8E9C714 /* OneAppETC-umbrella.h */,
+				A696BA6F8421BC7DC44D1AC7B358DB36 /* OneAppETC.modulemap */,
+				E637E3B284E5AACC27DA83AD7BC26527 /* OneAppETC-dummy.m */,
+				F290330F0BEDE23A1584C490BD1D3231 /* OneAppETC-Info.plist */,
+				2CCF05B5655A29435E52C37E096479CA /* OneAppETC-prefix.pch */,
+				FEB1EEF0AC4448CA4B0BA9ED79975E37 /* OneAppETC-umbrella.h */,
+				2F32F73A747B4369B6625FE880431137 /* OneAppETC.debug.xcconfig */,
+				3F4A21B3C0E690B63A304AB94F5BB3A6 /* OneAppETC.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/OneAppETC";
@@ -189,15 +188,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3A992F8714421AAA23C469B434B72E1 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				7C711606B0B5FF328C1ADA769E595F63 /* OneAppConfiguration.swift */,
-			);
-			name = Configuration;
-			path = OneAppETC/Classes/Configuration;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +199,7 @@
 		CDACE8E876AEB0DC73298EAF8D720F49 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				800127D093054A452EAE8A4CDF9B207C /* OneAppETC */,
+				E984A57F2F4E4F4F2CA2DBED113AFB78 /* OneAppETC */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -231,6 +221,18 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E984A57F2F4E4F4F2CA2DBED113AFB78 /* OneAppETC */ = {
+			isa = PBXGroup;
+			children = (
+				4E680958FE982D03DFAF84BE4E7AC4C9 /* OneAppETC.swift */,
+				79C4D98165B681C2C5EDE6186CBD125C /* Configuration */,
+				14AE29F2007BEA1D28A81BCBD0581FA9 /* Pod */,
+				9CBF566F10902756A9D2FABAEA297A06 /* Support Files */,
+			);
+			name = OneAppETC;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,6 +453,38 @@
 			};
 			name = Release;
 		};
+		2B91444DABE8DEAB9225D60FE5774C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4A21B3C0E690B63A304AB94F5BB3A6 /* OneAppETC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OneAppETC/OneAppETC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OneAppETC/OneAppETC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OneAppETC/OneAppETC.modulemap";
+				PRODUCT_MODULE_NAME = OneAppETC;
+				PRODUCT_NAME = OneAppETC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		411AC7CB13558507139477F39B02003B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABEA6FA67C8AC6976C6DC15B96397801 /* Pods-OneAppETC_Example.release.xcconfig */;
@@ -485,6 +519,37 @@
 			};
 			name = Release;
 		};
+		41DB79783D06730EA4B50CCC3A01A01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F32F73A747B4369B6625FE880431137 /* OneAppETC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OneAppETC/OneAppETC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OneAppETC/OneAppETC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OneAppETC/OneAppETC.modulemap";
+				PRODUCT_MODULE_NAME = OneAppETC;
+				PRODUCT_NAME = OneAppETC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		445FBF8E405BF38883D8C0D26591C551 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAFCFD19FF298F763B85C8975114DFB7 /* Pods-OneAppETC_Example.debug.xcconfig */;
@@ -512,69 +577,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7BE2393E4594C6EE7C4AFF298D44EAFD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1335EC64756B86B8009BCFE235B13163 /* OneAppETC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OneAppETC/OneAppETC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OneAppETC/OneAppETC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OneAppETC/OneAppETC.modulemap";
-				PRODUCT_MODULE_NAME = OneAppETC;
-				PRODUCT_NAME = OneAppETC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		904FF0AB84D77070444DEEDA3C63AC76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1335EC64756B86B8009BCFE235B13163 /* OneAppETC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OneAppETC/OneAppETC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OneAppETC/OneAppETC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OneAppETC/OneAppETC.modulemap";
-				PRODUCT_MODULE_NAME = OneAppETC;
-				PRODUCT_NAME = OneAppETC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -771,8 +773,8 @@
 		F9568C9FAE62074258BC9E42CF8BF270 /* Build configuration list for PBXNativeTarget "OneAppETC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				904FF0AB84D77070444DEEDA3C63AC76 /* Debug */,
-				7BE2393E4594C6EE7C4AFF298D44EAFD /* Release */,
+				41DB79783D06730EA4B50CCC3A01A01E /* Debug */,
+				2B91444DABE8DEAB9225D60FE5774C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -27,3 +27,8 @@ enum OneAppConfiguration {
         }
     }
 }
+
+public enum OneAppUserInfo: String {
+    case userId
+    case phone
+}
