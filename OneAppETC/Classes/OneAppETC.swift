@@ -9,6 +9,9 @@ import Foundation
 
 public protocol OneAppETCDelegate: class {
     func userInfo() -> [OneAppUserInfo: Any]
+    
+    /// 自定义字体沙盒路径
+    func fontUrlInSandbox(fontName: OneAppFontFamilyName) -> URL?
 }
 
 public class OneAppETC {
@@ -44,5 +47,14 @@ public class OneAppETC {
             return ""
         }
         return userId
+    }
+    
+    /// 自定义字体沙盒路径
+    /// - Parameter fontName: 字体名称枚举
+    public func fontUrlInSandbox(fontName: OneAppFontFamilyName) -> URL? {
+        guard isAllowAccess, let fontUrl = delegate?.fontUrlInSandbox(fontName: fontName) else {
+            return nil
+        }
+        return fontUrl
     }
 }

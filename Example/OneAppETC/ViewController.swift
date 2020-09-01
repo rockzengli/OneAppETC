@@ -20,8 +20,12 @@ class ViewController: UIViewController {
         OneAppETC.default.delegate = self
         let phone = OneAppETC.default.phone()
         let userId = OneAppETC.default.userId()
+        
+        //获取字体沙盒路径
+        let fontUrl = OneAppETC.default.fontUrlInSandbox(fontName: .hyQiHei60)
+
         //打印手机号码和userID
-        print("phone: \(phone) \nuserId: \(userId)")
+        print("phone: \(phone) \nuserId: \(userId) \nfontUrl: \(fontUrl?.absoluteString)")
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,8 +36,14 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: OneAppETCDelegate {
+    
     func userInfo() -> [OneAppUserInfo : Any] {
         return [.phone: "18626348698",
                 .userId: "1111111111"]
+    }
+    
+    /// 自定义字体沙盒路径
+    func fontUrlInSandbox(fontName: OneAppFontFamilyName) -> URL? {
+        return nil
     }
 }

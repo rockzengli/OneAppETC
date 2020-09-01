@@ -32,3 +32,12 @@ public enum OneAppUserInfo: String {
     case userId
     case phone
 }
+
+
+public enum OneAppFontFamilyName: String {
+    case hyQiHei60 = "HYQiHei-60S"
+    case hyQiHei80 = "HYQiHei-80S"
+    case textBold = "VWText-Bold"
+    case textLight = "VWText-Light"
+    case textRegular = "VWText-Regular"    
+}

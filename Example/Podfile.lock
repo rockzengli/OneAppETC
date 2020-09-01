@@ -1,5 +1,5 @@
 PODS:
-  - OneAppETC (0.1.1)
+  - OneAppETC (0.1.2)
 
 DEPENDENCIES:
   - OneAppETC (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OneAppETC: 816e3723e783ce22a96227a9a2aaeeb3b4164b94
+  OneAppETC: 5ae6cfefd47d43336efe6dd4ccbae30b6f12f3d9
 
 PODFILE CHECKSUM: 17cfbdca558a9f9552829f743b56e822079caf11
 
