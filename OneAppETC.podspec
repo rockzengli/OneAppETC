@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Rockhuaishui/OneAppETC'
+  s.homepage         = 'https://github.com/rockzengli/OneAppETC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zengli' => 'li.zheng@futuremove.cn' }
-  s.source           = { :git => 'https://github.com/Rockhuaishui/OneAppETC.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rockzengli/OneAppETC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

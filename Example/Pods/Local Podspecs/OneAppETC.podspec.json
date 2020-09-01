@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "summary": "A short description of OneAppETC.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "http://10.122.7.81/zengli/OneAppETC",
+  "homepage": "https://github.com/Rockhuaishui/OneAppETC",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "zengli": "li.zheng@futuremove.cn"
   },
   "source": {
-    "git": "http://10.122.7.81/zengli/OneAppETC.git",
+    "git": "https://github.com/Rockhuaishui/OneAppETC.git",
     "tag": "0.1.2"
   },
   "platforms": {
